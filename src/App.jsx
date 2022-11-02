@@ -8,9 +8,11 @@ import Proimg from './components/productImage/ProductImage'
 
 const App = () => {
   return (
-    <div className='container'>
-        <Proimg />
-        <Prodes />
+    <div className="contain-everything">
+        <div className='container'>
+          <Proimg />
+          <Prodes />
+        </div>
     </div>
   )
 }

@@ -1,6 +1,11 @@
 
 .container-img img {
-    height: 40%;
+    height: 15rem;
     width: 100%;
     background: white;
+    border-radius: 0.8rem 0.8rem 0 0;
+}
+
+.container-img {
+   
 }

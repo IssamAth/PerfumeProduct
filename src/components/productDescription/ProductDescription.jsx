@@ -7,8 +7,8 @@ import { HiOutlineShoppingCart } from 'react-icons/hi';
 const ProductDescription = () => {
   return (
     <section className='container-des'>
-        <div>
-          <span className='perfume'>P E R F U M E</span>
+        <div className='perfume'>
+          <span>P E R F U M E</span>
         </div>
         <div className="title">
           <h1>Gabrielle Essence Eau De Parfum</h1>
@@ -23,7 +23,7 @@ const ProductDescription = () => {
           <div className="old-price">$169.99</div>
         </div>
         <div className="button">
-          <button className='btn'><HiOutlineShoppingCart /> Add to Cart</button>
+          <button className='btn'><HiOutlineShoppingCart />&nbsp; Add to Cart</button>
         </div>
     </section>
   )
