@@ -37,8 +37,10 @@
 
 
 .contain-everything {
+    display: flex;
+    align-items: center;
     height: 100%;
-    padding: 2.5rem 1rem;
+    padding: 1.5rem 1rem;
     background: var(--color-bg) ;
 }
 
