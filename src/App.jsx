@@ -8,7 +8,7 @@ import Proimg from './components/productImage/ProductImage'
 
 const App = () => {
   return (
-    <div>
+    <div className='container'>
         <Proimg />
         <Prodes />
     </div>

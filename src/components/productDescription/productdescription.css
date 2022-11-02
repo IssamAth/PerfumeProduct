@@ -1,3 +1,10 @@
-.description {
-   
+.container-des {
+    height: 60%;
+    background: white;
+}
+
+
+.perfume {
+    font-family: 'Montserrat';
+    color: var(--color-tx);
 }
