@@ -36,6 +36,7 @@
 }
 
 .price .old-price {
+    text-decoration:line-through;
     margin: 0.6rem 0 0 1rem;
     font-size: 0.875rem;
 }
@@ -117,7 +118,13 @@
     }
 
     .button {
-        margin: 1rem 0 1rem 0;
+        margin: 1.3rem 0 0.8rem 0;
+    }
+
+    .button .btn {
+        margin: 0;
+        width: 100%;
+        padding: 0.88rem 0 0.88rem 0;
     }
 
 
