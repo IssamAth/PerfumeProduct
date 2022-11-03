@@ -40,7 +40,7 @@
     display: flex;
     align-items: center;
     height: 100%;
-    padding: 1.5rem 0.9rem;
+    padding: 1rem 0.9rem;
     background: var(--color-bg) ;
 }
 
@@ -96,4 +96,55 @@
         padding: 1.5rem 2rem;
         background: var(--color-bg) ;
     }
+}
+
+
+
+.contain-everything {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 1.5rem 0.9rem;
+    background: var(--color-bg) ;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    background: white;
+    color: var(--color-tx);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border-radius: 0.8rem;
+}
+
+
+
+
+/* MEDIA QUERIES ================ ( tablets devices ) ================ */
+
+@media screen and (min-width: 600px) {
+
+    .contain-everything {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+        padding: 1rem 0.9rem;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+        background: white;
+        color: var(--color-tx);
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        border-radius: 0.8rem;
+    }
+
 }
