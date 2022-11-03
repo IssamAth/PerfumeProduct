@@ -9,3 +9,13 @@
 .container-img {
    
 }
+
+ /* -----------------for bigger phones------------------- */
+
+@media screen and (min-width: 390px) {
+    .container-img img {
+        height: 20rem;
+    }
+}
+
+

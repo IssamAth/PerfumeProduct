@@ -2,13 +2,13 @@
     height: 60%;
     background: white;
     border-radius: 0 0 0.8rem 0.8rem;
-    padding: 0.6rem 1.3rem 1.5rem 1.3rem;
+    padding: 0.6rem 1.4rem 1.5rem 1.4rem;
 }
 
 .title {
     font-family: 'Fraunces', serif;
     color: var(--color-title);
-    font-size: 1.3rem;
+    font-size: 1.28rem;
 }
 
 
@@ -48,5 +48,74 @@
     margin: 0;
     width: 100%;
     padding: 0.85rem 0 0.85rem 0;
+}
+
+
+.button .btn:focus{
+    background-color:#1a4031;
+}
+
+.button .btn:hover{
+    background-color:#1a4031;
+}
+
+
+/* MEDIA QUERIES ================ ( bigger phones ) ================ */
+
+
+@media screen and (min-width: 390px) {
+
+    .title {
+        font-size: 1.4rem;
+    }
+
+    .perfume {
+        font-size: 0.8rem;
+        margin: 0.8rem 0 0.9rem 0;
+    }
+
+    .paragraph {
+        font-size: 0.89rem;
+        line-height: 1.5rem;
+        margin: 0.8rem 0 1.2rem 0;
+    }
+
+
+}
+
+
+
+
+
+/* MEDIA QUERIES ================ (very big phones ) ================ */
+
+
+@media screen and (min-width: 400px) {
+
+    .container-des {
+        padding: 0.6rem 1.6rem 1.5rem 1.6rem;
+    }
+    
+    .title {
+        font-size: 1.4rem;
+    }
+
+    .perfume {
+        font-size: 0.8rem;
+        margin: 0.8rem 0 0.9rem 0;
+    }
+
+    .paragraph {
+        font-size: 0.89rem;
+        line-height: 1.5rem;
+        margin: 0.8rem 0 1.2rem 0;
+    }
+
+    .button {
+        margin: 1rem 0 1rem 0;
+    }
+
+
+
 }
 
