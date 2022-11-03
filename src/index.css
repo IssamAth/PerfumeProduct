@@ -129,22 +129,23 @@
 
     .contain-everything {
         display: flex;
-        flex-direction: row;
         align-items: center;
         height: 100%;
-        padding: 1rem 0.9rem;
+        padding: 1rem 0.2rem;
     }
     
     .container {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
-        height: fit-content;
-        background: white;
+        align-items: center;
+        justify-content: center;
+        height: 65%;
+        background: var(--color-bg);
         color: var(--color-tx);
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
-        border-radius: 0.8rem;
+        border-radius: 0.6rem;
     }
 
 }

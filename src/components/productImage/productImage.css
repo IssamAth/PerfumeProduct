@@ -21,8 +21,23 @@
 
 
 
+
+
 /* MEDIA QUERIES ================ ( tablets devices ) ================ */
 
 @media screen and (min-width: 600px) {
-    
+
+    .container-img {
+        height: 28rem;
+        width: 18.2rem;
+        background: white;
+        border-radius: 0.6rem 0 0 0.6rem;
+    }
+
+    .container-img img {
+        height: 100%; 
+        border-radius: 0.6rem 0 0 0.6rem;
+    }
+
+
 }

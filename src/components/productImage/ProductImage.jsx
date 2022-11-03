@@ -3,23 +3,23 @@ import './productImage.css'
 import IMG from '../../assets/image-product-mobile.jpg'
 import IMG2 from '../../assets/image-product-desktop.jpg'
 
+const {useEffect, useState} = React;
+
+const getWidth = () => document.documentElement.clientWidth;
+
 const ProductImage = () => {
-  function displayImage(){
-    let vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
-    console.log(vw);
-    if(vw < 600) {
-     console.log(vw + "is smaller than 600");
-     return (<img src={IMG} alt="" />);
-    } else {
-     console.log(vw + "is bigger than 600");
-     return (<img src={IMG2} alt="" />);
+  const [width, setWidth] = useState(getWidth());
+  useEffect(() => {
+    const resize = () => setWidth(getWidth());
+    window.addEventListener('resize', resize);
+    return () => window.removeEventListener('resize', resize);
+  }, []);
+  return <div className='container-img'>{
+    width >= 600 
+      ? <img src={IMG2} alt="" />
+      : <img src={IMG} alt="" />
     }
-}
-  return (
-    <div className='container-img'>
-      {displayImage()}
-    </div>
-  )
+  </div>;
 }
 
 export default ProductImage
