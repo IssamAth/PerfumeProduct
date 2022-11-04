@@ -1,3 +1,6 @@
+
+
+
 .container-des {
     height: 60%;
     background: white;
@@ -49,6 +52,8 @@
     margin: 0;
     width: 100%;
     padding: 0.85rem 0 0.85rem 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 
