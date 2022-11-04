@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Frontend Mentor - Product preview card component solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### The challenge
 
-### `npm test`
+Users should be able to:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- View the optimal layout depending on their device's screen size
+- See hover and focus states for interactive elements
 
-### `npm run build`
+### Screenshot
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Mobiles
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot 2022-11-03 014639](https://user-images.githubusercontent.com/49134454/200007385-626a7c75-eee7-4eed-ab4d-5cc1c2aaae94.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Desktops
 
-### `npm run eject`
+![Screenshot 2022-11-04 155616](https://user-images.githubusercontent.com/49134454/200007777-1ffe1e1c-b9b2-42dc-9ad3-5e73b439efe8.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Tablets and Ipads
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Screenshot 2022-11-04 160014](https://user-images.githubusercontent.com/49134454/200007736-0c164981-6763-4999-a78e-5195e853f5b5.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Links
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Solution URL: [Solution](https://github.com/IssamAth/PerfumeProduct)
+- Live Site URL: [Live](https://product-preview-card-by-issameath.netlify.app/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## My process
 
-### Code Splitting
+### Built with
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Styled Components](https://styled-components.com/) - For styles
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### What I learned
 
-### Making a Progressive Web App
+This challenge is great for total newbies in order to get their hands on CSS and become more familiar with it. It helped me practice my design skills, mainly because it's been a few years since I stopped.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+### Continued development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+I'm gonna be doing more React projects, just to feel more comfortable with its tools. Hence why I'm going to be using react in most of my incoming projects.
 
-### Deployment
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Website - [Issame Aymen Athamena](https://issameathamena.netlify.app/?fbclid=IwAR1GLlFmmH854lOAzUtzlJoTWkDFs3g0AbEvnsNFcng5ThD7sACyFA7yAwY)
+- Frontend Mentor - [@IssamAth](https://www.frontendmentor.io/profile/IssamAth)
+- Twitter - [@1NobodyisHere11](https://twitter.com/1NobodyisHere11)
+- Instagram [@samradx_x](https://www.instagram.com/samradx_x/?hl=en)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
