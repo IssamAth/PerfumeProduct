@@ -69,7 +69,7 @@ I'm gonna be doing more React projects, just to feel more comfortable with its t
 
 ## Author
 
-- Website - [Issame Aymen Athamena](https://issameathamena.netlify.app/?fbclid=IwAR1GLlFmmH854lOAzUtzlJoTWkDFs3g0AbEvnsNFcng5ThD7sACyFA7yAwY)
+- Website - [Issame Aymen Athamena](https://github.com/IssamAth)  publishing my new portfolio soon
 - Frontend Mentor - [@IssamAth](https://www.frontendmentor.io/profile/IssamAth)
 - Twitter - [@1NobodyisHere11](https://twitter.com/1NobodyisHere11)
 - Instagram [@samradx_x](https://www.instagram.com/samradx_x/?hl=en)
